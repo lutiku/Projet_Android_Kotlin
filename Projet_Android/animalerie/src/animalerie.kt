@@ -6,8 +6,22 @@ import java.util.*
 fun main()
 {
 
-}
 
+        var scan = Scanner(System.`in`)
+        println("Ajouter un animal :")
+        var quisuisje: String = scan.next()
+        var parler: String = scan.next()
+
+
+        println("un animal a été ajouté !")
+
+    print("c'est un "+quisuisje+ " et il fait " + parler )
+
+
+
+
+
+}
 
 
 
@@ -30,6 +44,9 @@ interface Animal
     }
 
 }
+
+
+
 
 
 
@@ -56,21 +73,7 @@ class peroquet
 
 /*Fonction main*/
 
-fun animal()
-{
-    var scan = Scanner(System.`in`)
-    println("Ajouter un animal :")
 
-    var parler: String = scan.next()
-    var quisuisje: String = scan.next()
-
-    println("un animal a été ajouté !")
-    print(parler)
-    print(quisuisje)
-
-
-
-}
 
 /*Class Animalerie
 
